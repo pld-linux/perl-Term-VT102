@@ -48,7 +48,6 @@ ekranie poprzez odpowiednie odpytywanie klasy.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
@@ -58,7 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 install VT102/examples/*.pl $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
