@@ -9,7 +9,7 @@ Summary:	Term::VT102 - a class to emulate a DEC VT102 terminal
 Summary(pl):	Term::VT102 - klasa emuluj±ca terminal DEC VT102
 Name:		perl-Term-VT102
 Version:	0.80
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
