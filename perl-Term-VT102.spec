@@ -32,6 +32,15 @@ VT102 class. You can then see what the application has written on the
 screen by querying the class appropriately.
 
 %description -l pl
+Klasa VT102 emuluje wiêkszo¶æ funkcji terminala DEC VT102. Po
+zainicjowaniu dane przesy³ane przez obiekt VT102 s± przetwarzane, a
+"ekran" umieszczony w pamiêci odpowiednio modyfikowany. Ten "ekran"
+mo¿e byæ badany na ró¿ne sposoby przez program zewnêtrzny.
+
+Pozwala to programom wspó³pracowaæ z programami pe³noekranowymi
+poprzez uruchamianie ich w podprocesie i przesy³anie ich wyj¶cia do
+klasy VT102. Dziêki temu mo¿na widzieæ, co aplikacja napisa³a na
+ekranie poprzez odpowiednie odpytywanie klasy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
