@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Term
-%define	pnam	VT102
+%define		pdir	Term
+%define		pnam	VT102
 Summary:	Term::VT102 - a class to emulate a DEC VT102 terminal
 Summary(pl):	Term::VT102 - klasa emuluj±ca terminal DEC VT102
 Name:		perl-Term-VT102
