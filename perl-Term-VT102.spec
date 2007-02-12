@@ -6,7 +6,7 @@
 %define		pdir	Term
 %define		pnam	VT102
 Summary:	Term::VT102 - a class to emulate a DEC VT102 terminal
-Summary(pl):	Term::VT102 - klasa emuluj±ca terminal DEC VT102
+Summary(pl.UTF-8):   Term::VT102 - klasa emulujÄ…ca terminal DEC VT102
 Name:		perl-Term-VT102
 Version:	0.82
 Release:	1
@@ -31,15 +31,15 @@ programs by running them in a subprocess and passing their output to a
 VT102 class. You can then see what the application has written on the
 screen by querying the class appropriately.
 
-%description -l pl
-Klasa VT102 emuluje wiêkszo¶æ funkcji terminala DEC VT102. Po
-zainicjowaniu dane przesy³ane przez obiekt VT102 s± przetwarzane, a
-"ekran" umieszczony w pamiêci odpowiednio modyfikowany. Ten "ekran"
-mo¿e byæ badany na ró¿ne sposoby przez program zewnêtrzny.
+%description -l pl.UTF-8
+Klasa VT102 emuluje wiÄ™kszoÅ›Ä‡ funkcji terminala DEC VT102. Po
+zainicjowaniu dane przesyÅ‚ane przez obiekt VT102 sÄ… przetwarzane, a
+"ekran" umieszczony w pamiÄ™ci odpowiednio modyfikowany. Ten "ekran"
+moÅ¼e byÄ‡ badany na rÃ³Å¼ne sposoby przez program zewnÄ™trzny.
 
-Pozwala to programom wspó³pracowaæ z programami pe³noekranowymi
-poprzez uruchamianie ich w podprocesie i przesy³anie ich wyj¶cia do
-klasy VT102. Dziêki temu mo¿na widzieæ, co aplikacja napisa³a na
+Pozwala to programom wspÃ³Å‚pracowaÄ‡ z programami peÅ‚noekranowymi
+poprzez uruchamianie ich w podprocesie i przesyÅ‚anie ich wyjÅ›cia do
+klasy VT102. DziÄ™ki temu moÅ¼na widzieÄ‡, co aplikacja napisaÅ‚a na
 ekranie poprzez odpowiednie odpytywanie klasy.
 
 %prep
