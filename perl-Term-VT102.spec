@@ -6,7 +6,7 @@
 %define		pdir	Term
 %define		pnam	VT102
 Summary:	Term::VT102 - a class to emulate a DEC VT102 terminal
-Summary(pl.UTF-8):   Term::VT102 - klasa emulująca terminal DEC VT102
+Summary(pl.UTF-8):	Term::VT102 - klasa emulująca terminal DEC VT102
 Name:		perl-Term-VT102
 Version:	0.82
 Release:	1
