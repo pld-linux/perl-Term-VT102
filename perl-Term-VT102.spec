@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Term
 %define		pnam	VT102
+%include	/usr/lib/rpm/macros.perl
 Summary:	Term::VT102 - a class to emulate a DEC VT102 terminal
 Summary(pl.UTF-8):	Term::VT102 - klasa emulująca terminal DEC VT102
 Name:		perl-Term-VT102
@@ -14,6 +14,7 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	210cfacde8d82005a3f08748e0ca8631
+URL:		http://search.cpan.org/dist/Term-VT102/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -58,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
-install VT102/examples/*.pl $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
+cp -p VT102/examples/*.pl $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
